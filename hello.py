@@ -3,9 +3,9 @@ def hello():
     print("Computers are fun!")
 hello()
 
-def greet(person):
-    print("Hello dear", person)
+def greet(person,surname):
+    print("Hello dear", person , surname)
     print("How are you?")
 
-greet("Edona")
+greet("Edona","Kallaba")
 
