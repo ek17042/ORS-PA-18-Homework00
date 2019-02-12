@@ -1,11 +1,8 @@
-def hello():
-    print("Hello Dear")
-    print("Computers are fun!")
-hello()
+#file : chaos.py
+# A simple program illustrating chaotic behaviour
 
-def greet(person,surname):
-    print("Hello dear", person , surname)
-    print("How are you?")
-
-greet("Edona","Kallaba")
-
+print("This program illustrates a chaotic function")
+x= eval(input("Enter a number between 0 and 1: "))
+for i in range (10):
+    x=3.9*x*(1-x)
+    print(x)
